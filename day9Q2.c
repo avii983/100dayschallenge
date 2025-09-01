@@ -5,7 +5,7 @@
 int main() { int per;
              printf("enter the value of percentage:        ");
              scanf("%d" , &per);
-            if(per==100&&per>=90)
+            if(per<=90&&per>=100)
              printf("Grade A");
             else if (per>=80&&per<90)
              printf("Grade B");
@@ -19,4 +19,5 @@ int main() { int per;
              printf("Grade F");
             return 0;
 }
+
 
