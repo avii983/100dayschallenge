@@ -17,8 +17,14 @@ int main(){ int unitsconsumed , bill=0;
                                      bill = ((unitsconsumed - 200) * 16) + (100 * 9) + (100 * 5);
                                      printf("the total amount of your bill is %d\n" , bill);
                                      break;
+                                    default:
+                                     bill = ((unitsconsumed - 300) * 12) + (100 * 10) + (100 * 7) + (100 * 5);
+                                     printf("the total amount of your bill is %d\n" , bill);
+                                     break;
             }                       return 0;
+
 }
+
 
 
 
