@@ -2,7 +2,7 @@
 /*Q40: Write a program to find the 1’s complement of a binary number and print it.*/
 int main()
 {
-  int binary, real = 0, count = 0, value = 0, digit = 0, g = 0, h, place = 1;
+  int binary, real = 0, value = 0, digit = 0, g = 0, h, place = 1;
   printf("enter the value of your binary\n");
   scanf("%d", &binary);
   h = binary;
@@ -22,8 +22,8 @@ int main()
     digit = digit + (value * place);
     place *= 10;
     binary /= 10;
-    count += 1;
   }
   printf("%0*d\n", real, digit);
   return 0;
 }
+
