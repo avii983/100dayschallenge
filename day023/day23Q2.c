@@ -6,7 +6,7 @@
 *****
 *****
 */
-   int main(){ int i = 0;
+   int main(){ int i = 1;
                while (i <= 25)
                {printf("*");
                 if (i % 5 == 0)
@@ -14,5 +14,6 @@
                 i += 1;}
                return 0;
    }
+
 
 
