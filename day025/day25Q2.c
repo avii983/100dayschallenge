@@ -1,10 +1,10 @@
 #include <stdio.h>
 /*Q50: Write a program to print the following pattern:
 *****
-****
-***
-**
-* */
+  ****
+    ***
+      **
+        * */
 int main()
 { int count = 1, ori = 0, g = 1;
     for (int i = 1; i <= 5; i++)
@@ -24,4 +24,5 @@ int main()
         printf("\n");
     }
     return 0;
+
 }
