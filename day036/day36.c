@@ -1,12 +1,12 @@
 #include <stdio.h>
 /*Q71: Read and print a matrix.*/
- int main(){ int a , b , d = 0 , e = 1 , f = 1 , g = 0;
+ int main(){ int a , b , d = 0 , e = 0 , f = 0 , g = 0;
              printf("Enter the rows you want in your array\n");
              scanf("%d" , &a);
              printf("Enter the columns you want in your array\n");
              scanf("%d" , &b);
              int c[a][b];
-             while (e <= a)
+             while (e < a)
              {
               while (d < b)
               {printf("Enter the element you want in your columns c[%d][%d]\n" , e , d);
@@ -15,7 +15,7 @@
               d = 0;
               e += 1;
              }
-             while (f <= a)
+             while (f < a)
              {
                while(g < b)
                {
@@ -29,3 +29,4 @@
              }
              return 0;
  }
+
