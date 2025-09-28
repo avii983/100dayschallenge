@@ -10,7 +10,8 @@ int main()
     int c[a][b], k[a][b];
     if (a != b)
     printf("Please make sure the matrix whixh you entered is square as only square matrix have perfect diagonals");
-    while (d < a)
+    if (a == b)
+    {   while (d < a)
     {
         while (e < b)
         {
@@ -46,7 +47,8 @@ int main()
         i += 1;
     }
     if (count == 0)
-        printf("Distinct");
+        printf("Distinct");}
     return 0;
 
 }
+
