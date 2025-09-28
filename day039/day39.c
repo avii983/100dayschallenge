@@ -8,6 +8,8 @@ int main()
     printf("Enter the number of columns you want in your array\n");
     scanf("%d", &b);
     int c[a][b], k[a][b];
+    if (a != b)
+    printf("Please make sure the matrix whixh you entered is square as only square matrix have perfect diagonals");
     while (d < a)
     {
         while (e < b)
@@ -46,4 +48,5 @@ int main()
     if (count == 0)
         printf("Distinct");
     return 0;
+
 }
