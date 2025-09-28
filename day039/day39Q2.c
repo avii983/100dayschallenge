@@ -8,7 +8,8 @@
              int c[a][b];
             if (a != b)
              printf("Please make sure that the matrix which you entered is a square matrix as addition is only possible in square matrix");
-             while (d < a)
+            if (a == b)
+            { while (d < a)
              {
                 while (e < b)
                 {
@@ -28,7 +29,7 @@
                 g += 1;
                 h += 1;
             }
-            printf("The sum of all the diagonal elements in yoru array is %d" , sum);
+            printf("The sum of all the diagonal elements in yoru array is %d" , sum);}
             return 0;
 
 
@@ -42,3 +43,4 @@
 
 
  }
+
