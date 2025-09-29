@@ -8,7 +8,7 @@ int main()
     printf("Enter the number of columns you want in your array\n");
     scanf("%d", &b);
     int c[a][b], k[a][b];
-    if (a != b)
+    if (a != b)  
     printf("Please make sure the matrix whixh you entered is square as only square matrix have perfect diagonals");
     if (a == b)
     {   while (d < a)
@@ -51,4 +51,5 @@ int main()
     return 0;
 
 }
+
 
