@@ -6,7 +6,7 @@
              printf("Enter the number of columns you want in your array\n");
              scanf("%d" , &b);
              int c[a][b];
-            if (a != b)
+            if (a != b)       
              printf("Please make sure that the matrix which you entered is a square matrix as addition is only possible in square matrix");
             if (a == b)
             { while (d < a)
@@ -43,4 +43,5 @@
 
 
  }
+
 
