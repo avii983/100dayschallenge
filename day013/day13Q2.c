@@ -8,7 +8,7 @@
                 {printf("%d" , t);
                  if (t<num)       
                  printf(" ");
-                 t = t + 1;}
+                 t = t + 1;}      
                  return 0;
                  
      }
@@ -23,4 +23,5 @@
 
 
      
+
 
