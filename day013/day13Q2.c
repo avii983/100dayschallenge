@@ -6,7 +6,7 @@
                  t = 1;
                 while (t<=num)
                 {printf("%d" , t);
-                 if (t<num)
+                 if (t<num)       
                  printf(" ");
                  t = t + 1;}
                  return 0;
@@ -23,3 +23,4 @@
 
 
      
+
