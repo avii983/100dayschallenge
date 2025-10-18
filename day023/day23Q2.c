@@ -10,10 +10,11 @@
                while (i <= 25)
                {printf("*");
                 if (i % 5 == 0)
-                printf("\n");
+                printf("\n");                                  
                 i += 1;}
                return 0;
    }
+
 
 
 
