@@ -7,7 +7,7 @@ int main(){ int sp , cp , profit , loss;
             printf("enter the value of cp\n");
             scanf("%d %d" , &sp , &cp);
             if (sp>cp)
-              { profit = sp - cp;
+              { profit = sp - cp;              
                profitper = ((float)profit/cp);
                profitper = profitper*100;
                printf("your profit is %f%%\n" , profitper);}
@@ -20,4 +20,5 @@ int main(){ int sp , cp , profit , loss;
                printf("no profit no loss");
             return 0;
         }
+
 
