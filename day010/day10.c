@@ -11,6 +11,7 @@ int main()
     else if (ab == bc || bc == ca || ca == ab)
         printf("the triangle is isosceles");
     else
-        printf("the triangle is scalene");
+        printf("the triangle is scalene");    
     return 0;
 }
+
