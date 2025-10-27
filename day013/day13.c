@@ -9,7 +9,7 @@
              scanf("%d %d %c" , &k , &h , &oper);
              switch (oper){
                             case '+':
-                              total = k + h;
+                              total = k + h;   
                               printf("the value of your output is %d\n" , total);
                               break;
                             case '-':
@@ -63,3 +63,4 @@
 
 
  
+
