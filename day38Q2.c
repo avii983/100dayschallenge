@@ -12,7 +12,7 @@
              }
              if (a == b)
              {int c[a][b] , k[a][b];
-             while (d < a)
+             while (d < a) 
              {
                 while (e < b)
                 {
