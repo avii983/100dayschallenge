@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 /* Q76 Check if a matrix is symmetric.*/
  int main(){ int a , b , d = 0 , e = 0 , f = 0 , g = 0 , h = 0, i = 0 , count = 0 , result = 0;
              printf("PLASE MAKE SURE THAT THE MATRIX WHICH YOU ARE THINKING OF OUGHT TO HAVE SAME NUMBER OF ROWS AND COLUMNS\n\n");
