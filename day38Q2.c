@@ -14,7 +14,7 @@
              {int c[a][b] , k[a][b];
              while (d < a) 
              {
-                while (e < b)
+                while (e < b) 
                 {
                     printf("enter the next value which you wnat in your matrix c[%d][%d]\n" , d , e);
                     scanf("%d" , &c[d][e]);
